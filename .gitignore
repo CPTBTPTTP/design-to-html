@@ -1,0 +1,47 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS metadata
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node / build artifacts (if any tooling gets added later)
+node_modules/
+dist/
+build/
+.cache/
+
+# Local-only files
+.env
+.env.local
+*.local
+.credentials
+
+# Temp scratch (used during the skill's authoring, safe to ignore)
+_crop.py
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
